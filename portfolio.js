@@ -1,25 +1,25 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Ahmed Gharmoul",
+	title: "Hello 👋 , I'm Ahmed",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-	resumeLink: "https://cv.hanzla.ga",
+		"A passionate Full Stack Web Developer and Mobile App enthusiast having an experience of building Web applications with JavaScript / Angular / Vue / Reactjs / Nodejs / Symfony / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
+	resumeLink: "https://drive.google.com/file/d/14Z-9EgXisDjboN5FKASKRhOCO6-Ve_IL/view?usp=sharing",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "AhmedGhrml",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
+	facebook: "https://www.facebook.com/gharmoul.ahmed",
 	instagram: "https://www.instagram.com/1hanzla100",
 	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	github: "https://github.com/AhmedGhrml",
+	linkedin: "https://www.linkedin.com/in/ahmed-gharmoul/",
 };
 
 export const skillsSection = {
@@ -31,11 +31,9 @@ export const skillsSection = {
 			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
 		),
 		emoji(
-			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
+			"⚡ Develop APIs and RESTful services / Create servers and databases for the back end of the software "
 		),
-		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-		),
+		
 	],
 
 	softwareSkills: [
@@ -48,10 +46,6 @@ export const skillsSection = {
 			fontAwesomeClassname: "vscode-icons:file-type-css",
 		},
 		{
-			skillName: "sass",
-			fontAwesomeClassname: "logos:sass",
-		},
-		{
 			skillName: "JavaScript",
 			fontAwesomeClassname: "logos:javascript",
 		},
@@ -59,6 +53,16 @@ export const skillsSection = {
 			skillName: "TypeScript",
 			fontAwesomeClassname: "logos:typescript-icon",
 		},
+
+		{
+			skillName: "Angular",
+			fontAwesomeClassname: "vscode-icons:file-type-angular",
+		},
+		{
+			skillName: "Vue",
+			fontAwesomeClassname: "vscode-icons:file-type-vue",
+		},
+
 		{
 			skillName: "reactjs",
 			fontAwesomeClassname: "vscode-icons:file-type-reactjs",
@@ -68,12 +72,21 @@ export const skillsSection = {
 			fontAwesomeClassname: "logos:nodejs-icon",
 		},
 		{
-			skillName: "flutter",
-			fontAwesomeClassname: "logos:flutter",
+			skillName: "Nestjs",
+			fontAwesomeClassname: "vscode-icons:file-type-nestjs",
 		},
 		{
-			skillName: "swift",
-			fontAwesomeClassname: "vscode-icons:file-type-swift",
+			skillName: "Spring",
+			fontAwesomeClassname: "logos:spring-icon",
+		},
+
+		{
+			skillName: "Symfony",
+			fontAwesomeClassname: "logos:symfony",
+		},
+		{
+			skillName: "flutter",
+			fontAwesomeClassname: "logos:flutter",
 		},
 		{
 			skillName: "npm",
@@ -103,10 +116,7 @@ export const skillsSection = {
 			skillName: "git",
 			fontAwesomeClassname: "logos:git-icon",
 		},
-		{
-			skillName: "docker",
-			fontAwesomeClassname: "logos:docker-icon",
-		},
+		
 	],
 };
 
@@ -127,62 +137,50 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
+		schoolName: "Polytechnique Sousse University",
+		subHeader: "Software Engineering Degree",
+		duration: "September 2019 - June 2021",
+		
 	},
 	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
+		schoolName: "Higher Institute of Computer Science and Communication Techniques(ISITCom) :",
+		subHeader: "Licence degree in Computer Science",
+		duration: "September 2016 - June 2019",
+		
 	},
 	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-		descBullets: [
-			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
-		],
+		schoolName: "Farhat Hached M’saken High Schooly",
+		subHeader: "Baccalaureate degree in Computer Science",
+		duration: "September 2012 - June 2016",
+		
 	},
 ];
 
 export const experience = [
 	{
-		role: "Software Engineer",
-		company: "Google",
-		companylogo: "/img/icons/common/google.svg",
-		date: "June 2018 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
-	{
-		role: "Front-End Developer",
-		company: "Github",
-		companylogo: "/img/icons/common/github.svg",
-		date: "May 2017 – May 2018",
-		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		role: "Software Engineer Intern",
+		company: "GeoMetis",
+		companylogo: "/img/icons/common/geometis.png",
+		date: "July 2020 – September 2020",
+		desc: "Design and developement of an internal admin tool through which the admin can manage advanced aspects of users and workspaces.\n\nTools: VueJS , Flask ,Serverless , Lambda , Git , Gitlab",
+		
 	},
 	{
 		role: "Software Engineer Intern",
-		company: "Airbnb",
-		companylogo: "/img/icons/common/airbnbLogo.png",
-		date: "Jan 2015 – Sep 2015",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		company: "Enova Robotics",
+		companylogo: "/img/icons/common/enova.png",
+		date: "June 2020 – July 2020",
+		desc: "Design and developement of a video conference web application through which the user can create, invite users and join rooms Tools: WebRTC , VueJS , Firebase",
 	},
+	{
+		role: "Software Engineer Intern",
+		company: "Axia Solutions",
+		companylogo: "/img/icons/common/axia.png",
+		date: "Jan 2015 – Sep 2015",
+		desc: "Design and developement of a video conference web application through which the user can create, invite users and join rooms Tools: WebRTC , VueJS , Firebase",
+	},
+
+	
 ];
 
 export const projects = [

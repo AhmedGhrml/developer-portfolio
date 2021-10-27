@@ -14,7 +14,7 @@ const Skills = () => {
 				<p className="lead">{skillsSection.subTitle}</p>
 				<Row>
 					<Col lg="6">
-						<DisplayLottie animationPath="/lottie/webdev.json" />
+						<DisplayLottie animationPath="/lottie/developer.json" />
 					</Col>
 					<Col lg="6">
 						<div className="d-flex justify-content-center flex-wrap mb-5">

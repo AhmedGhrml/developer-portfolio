@@ -5,12 +5,12 @@ import { Container, Row, Col } from "reactstrap";
 
 const Edution = () => {
 	return (
-		<section className="section pb-0 bg-gradient-info my-5">
+		<section className="section pb-0 bg-gradient-gray-dark my-5">
 			<Container>
 				<div className="d-flex px-3">
 					<div>
-						<div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-							<i className="ni ni-books text-info" />
+						<div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle gray-dark">
+							<i className="ni ni-books gray-dark" />
 						</div>
 					</div>
 					<div className="pl-4">
