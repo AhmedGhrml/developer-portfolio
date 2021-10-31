@@ -143,7 +143,7 @@ export const educationInfo = [
 		
 	},
 	{
-		schoolName: "Higher Institute of Computer Science and Communication Techniques(ISITCom) :",
+		schoolName: "Higher Institute of Computer Science and Communication Techniques:",
 		subHeader: "Licence degree in Computer Science",
 		duration: "September 2016 - June 2019",
 		
@@ -161,7 +161,7 @@ export const experience = [
 		role: "Software Engineer Intern",
 		company: "GeoMetis",
 		companylogo: "/img/icons/common/geometis.png",
-		date: "July 2020 – September 2020",
+		date: "July 2021 – September 2021",
 		desc: "Design and developement of an internal admin tool through which the admin can manage advanced aspects of users and workspaces.\n\nTools: VueJS , Flask ,Serverless , Lambda , Git , Gitlab",
 		
 	},
@@ -169,14 +169,14 @@ export const experience = [
 		role: "Software Engineer Intern",
 		company: "Enova Robotics",
 		companylogo: "/img/icons/common/enova.png",
-		date: "June 2020 – July 2020",
+		date: "June 2021 – August 2021",
 		desc: "Design and developement of a video conference web application through which the user can create, invite users and join rooms Tools: WebRTC , VueJS , Firebase",
 	},
 	{
 		role: "Software Engineer Intern",
 		company: "Axia Solutions",
 		companylogo: "/img/icons/common/axia.png",
-		date: "Jan 2015 – Sep 2015",
+		date: "August 2020 – September 2021",
 		desc: "Design and developement of a video conference web application through which the user can create, invite users and join rooms Tools: WebRTC , VueJS , Firebase",
 	},
 
